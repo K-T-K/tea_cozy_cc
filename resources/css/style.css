@@ -27,7 +27,8 @@ header {
   padding: 10px;
   width: 100%;
   height: 69px;
-
+  background-color: black;
+  opacity: 0.9
 }
 
 .logo {
@@ -45,3 +46,44 @@ nav span {
  display: inline-block;
  padding-right: 55px;
  }
+
+
+ /* Main Container:  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin-left:175px;
+  margin-right: 175px;
+}
+
+
+
+ /* featured-area:  */
+
+ .featured-area {
+   display: flex;
+   height: 700px;
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+ }
+
+ .art1_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .feature {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column;
+ }
+
+#bckgnd {
+     background-color: black;
+     width: 1200px;
+     padding: 30px;
+
+}
