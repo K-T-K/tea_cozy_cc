@@ -196,3 +196,9 @@ nav span {
    flex-flow: column;
    height: 200px;
 }
+
+/* Footer:  */
+
+.footer{
+  padding-left: 20px;
+}
