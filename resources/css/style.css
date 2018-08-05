@@ -47,6 +47,9 @@ nav span {
  padding-right: 55px;
  }
 
+.lg {
+  height: 50px;
+}
 
  /* Main Container:  */
 
@@ -108,6 +111,8 @@ nav span {
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 #middle-pics {
