@@ -58,10 +58,12 @@ nav span {
   justify-content: center;
   flex-flow: column;
   width: 1200px;
-  margin-left:175px;
-  margin-right: 175px;
+  margin: auto;
 }
 
+h2 h3 h4 h5 {
+  padding: 10px;
+}
 
  /* featured-area:  */
 
@@ -127,13 +129,14 @@ nav span {
 .picture {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .pictures {
-  display: flex;
+  display: blox;
   width: 300px;
   height: 200px;
+  margin: 10px;
 }
 
 .captions {
@@ -143,8 +146,10 @@ nav span {
 }
 
 .second-row {
-  margin-left: 100px;
-  margin-right: 100px;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column;
 }
 
  /* bottom-area:  */
