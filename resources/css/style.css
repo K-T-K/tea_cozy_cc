@@ -61,8 +61,8 @@ nav span {
   margin: auto;
 }
 
-h2 h3 h4 h5 {
-  padding: 10px;
+h2 {
+  padding-bottom: 20px;
 }
 
  /* featured-area:  */
